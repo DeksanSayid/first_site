@@ -1,0 +1,53 @@
+body {
+    color: palevioletred;
+    font-family: monospace;
+    margin: 10px;
+}
+
+div {
+  min-height: 30vh;
+  min-width: 10vw;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+img {
+  display: flex;
+  padding: 0px;
+  margin: 0 auto;
+  border-radius: 130px;
+}
+
+a {
+ color: black;
+}
+
+p {
+  width: 70%;
+  margin: 5vh 10vw;
+  font-size: 1.5em;
+}
+
+ul {
+  list-style: square;
+  padding: 50;
+  margin-bottom: 5%;
+  font-size: 1.25em;
+  display: block;
+  justify-content: center;
+}
+
+div.contrast{
+  background-color: lightgray;
+  color: white;
+}
